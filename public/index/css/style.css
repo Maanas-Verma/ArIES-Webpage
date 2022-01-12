@@ -1110,6 +1110,10 @@ h6 {
   margin: 0 2px;
 }
 
+.portfolio-extra{
+  margin-left: 130px;
+}
+
 /* Clients Section
 --------------------------------*/
 
@@ -1486,11 +1490,37 @@ h6 {
 }
 
 @media (max-width: 991px){
+  .mb-5{
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 575px){
+  .portfolio-extra{
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 991px){
   #services{
     text-align: center;
   }
   .col-md-4{
     margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 400px){
+  .project-margin{
+    margin-left: 0px;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 450px){
+  .project-margin{
+    margin-left: 20px;
     margin-right: 50px;
   }
 }

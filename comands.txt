@@ -1,0 +1,3 @@
+icacls .\arieswebsite.key /inheritance:r
+icacls .\arieswebsite.pem /grant:r "%username%":"(R)"
+ssh -i arieswebsite.pem ubuntu@18.216.236.31

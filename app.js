@@ -68,7 +68,11 @@ app.listen(process.env.PORT || 8081, function(){
    console.log("The YelpCamp Server Has Started!");
 });
 
+<<<<<<< HEAD
 var server = app.listen(5000, function () {
+=======
+var server = app.listen(process.env.PORT || 5000, function () {
+>>>>>>> a28a54534401ba6ec373c5d94e2e65c9e26306a9
     var host = server.address().address
     var port = server.address().port
  
